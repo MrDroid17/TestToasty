@@ -19,7 +19,7 @@
         />
 
     <Button
-        android:id="@+id/button_1"
+        android:id="@+id/button_error"
         style="@style/buttonStyle"
         android:text="@string/button_error"
         app:layout_constraintTop_toBottomOf="@+id/tv1"
@@ -28,30 +28,30 @@
         android:onClick="showErrorToasty"/>
 
     <Button
-        android:id="@+id/button_2"
+        android:id="@+id/button_warning"
         style="@style/buttonStyle"
         android:text="@string/button_warning"
-        app:layout_constraintTop_toBottomOf="@+id/button_1"
+        app:layout_constraintTop_toBottomOf="@+id/button_error"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:onClick="showWarningToasty"/>
 
 
     <Button
-        android:id="@+id/button_3"
+        android:id="@+id/button_success"
         style="@style/buttonStyle"
         android:text="@string/button_success"
-        app:layout_constraintTop_toBottomOf="@+id/button_2"
+        app:layout_constraintTop_toBottomOf="@+id/button_warning"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:onClick="showSuccessToasty"/>
 
 
     <Button
-        android:id="@+id/button_4"
+        android:id="@+id/button_info"
         style="@style/buttonStyle"
         android:text="@string/button_info"
-        app:layout_constraintTop_toBottomOf="@+id/button_3"
+        app:layout_constraintTop_toBottomOf="@+id/button_success"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         android:onClick="showInfoToasty"/>
