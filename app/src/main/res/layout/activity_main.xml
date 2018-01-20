@@ -8,14 +8,11 @@
 
     <TextView
         android:id="@+id/tv1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        style="@style/TextViewStyle"
         android:text="@string/toasty_examples_label"
         android:textColor="@color/colorAccent"
         android:textAppearance="?android:textAppearanceLarge"
-        android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="24dp"
@@ -23,56 +20,40 @@
 
     <Button
         android:id="@+id/button_1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Error"
-        android:layout_marginTop="32dp"
+        style="@style/buttonStyle"
+        android:text="@string/button_error"
         app:layout_constraintTop_toBottomOf="@+id/tv1"
-        android:layout_marginLeft="8dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
         android:onClick="showErrorToasty"/>
 
     <Button
         android:id="@+id/button_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="32dp"
-        android:text="Warning"
+        style="@style/buttonStyle"
+        android:text="@string/button_warning"
+        app:layout_constraintTop_toBottomOf="@+id/button_1"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_1"
         android:onClick="showWarningToasty"/>
 
 
     <Button
         android:id="@+id/button_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="32dp"
-        android:text="Success"
+        style="@style/buttonStyle"
+        android:text="@string/button_success"
+        app:layout_constraintTop_toBottomOf="@+id/button_2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_2"
         android:onClick="showSuccessToasty"/>
 
 
     <Button
         android:id="@+id/button_4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="32dp"
-        android:text="Info"
+        style="@style/buttonStyle"
+        android:text="@string/button_info"
+        app:layout_constraintTop_toBottomOf="@+id/button_3"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_3"
         android:onClick="showInfoToasty"/>
 
 

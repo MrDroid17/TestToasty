@@ -5,4 +5,8 @@
     <string name="Success_Message">this is a success message</string>
     <string name="Imformation_Message">this is  Information toasty</string>
     <string name="toasty_examples_label">Toasty Examples</string>
+    <string name="button_warning">Warning</string>
+    <string name="button_error">Error</string>
+    <string name="button_info">Info</string>
+    <string name="button_success">Success</string>
 </resources>

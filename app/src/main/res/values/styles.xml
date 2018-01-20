@@ -8,4 +8,18 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--custom style for TextView-->
+    <style name="TextViewStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+    </style>
+
+    <!--custom style for buttons which inherit properties fron buttonStyle-->
+    <style name="buttonStyle"  parent="TextViewStyle">
+        <item name="android:layout_marginTop">32dp</item>
+    </style>
+
+
 </resources>
