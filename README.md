@@ -1,5 +1,5 @@
 # TestToasty 
-![Click here to  know more about Toasty](https://github.com/GrenderG/Toasty)
+ [Click here to  know more about Toasty](https://github.com/GrenderG/Toasty)
 
 This App deals use of Toasty which is custom toast with steroids . You can also customize different Attribute of Toasty as Per requirement.
 
